@@ -1,0 +1,54 @@
+.navbar {
+    position: absolute; /* Make navbar positioned on top */
+    top: 0;
+    left: 0;
+    width: 115%; /* Stretch the navbar to full width */
+    height: 7vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between; /* Distribute content horizontally */
+    align-items: center; /* Vertically center content */
+    padding: 2rem 2rem; /* Adjust padding as needed */
+  }
+  
+  .navbar__container {
+    display: flex;
+    align-items: center;
+    /* Remove max-width property */
+  }
+  
+  .navbar__left,
+  .navbar__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__left img {
+    height: 2rem; /* Adjust logo height as needed */
+    margin-right: 1rem; /* Adjust margin as needed */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(68, 67, 67); ; /* Adjust text color as needed */
+    margin-right: 5rem; /* Adjust margin as needed */
+    margin-left: 3rem; 
+  }
+  
+  .navbar a:hover {
+    color: #e0e1e2; /* Adjust hover color as needed */
+  }
+  
+  .navbar__right button {
+    background-color: #007bff; /* Adjust button background color as needed */
+    color: rgb(68, 67, 67); /* Adjust button text color as needed */
+    padding: 0.8rem 2rem; /* Adjust button padding as needed */
+    border: none;
+    border-radius: 20px; /* Set rounded corners for the button */
+    cursor: pointer; /* Add cursor pointer for button */
+    margin-left: 12rem; /* Add spacing between button and '|' */
+  }
+  
+  .navbar__right button:hover {
+    background-color: #0069d9; /* Adjust button hover background color as needed */
+  }
+  
